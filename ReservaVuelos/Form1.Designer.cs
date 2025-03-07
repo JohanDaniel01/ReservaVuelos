@@ -152,6 +152,7 @@
             this.btnAgregarVuelo.TabIndex = 12;
             this.btnAgregarVuelo.Text = "Agregar";
             this.btnAgregarVuelo.UseVisualStyleBackColor = false;
+            this.btnAgregarVuelo.Click += new System.EventHandler(this.btnAgregarVuelo_Click);
             // 
             // txtCodigoReserva
             // 
@@ -176,6 +177,7 @@
             this.btnReservarVuelo.TabIndex = 15;
             this.btnReservarVuelo.Text = "Reservar";
             this.btnReservarVuelo.UseVisualStyleBackColor = false;
+            this.btnReservarVuelo.Click += new System.EventHandler(this.btnReservarVuelo_Click);
             // 
             // label3
             // 
@@ -262,9 +264,9 @@
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label9.Location = new System.Drawing.Point(292, 542);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(203, 55);
+            this.label9.Size = new System.Drawing.Size(306, 83);
             this.label9.TabIndex = 24;
-            this.label9.Text = "Registro";
+            this.label9.Text = "Reserva";
             // 
             // Form1
             // 

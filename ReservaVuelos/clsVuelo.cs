@@ -23,23 +23,9 @@ namespace ReservaVuelos
             CantidadAsientos = cantidadAsientos;
         }
 
-        public void ReservarAsiento(int codigo, int cantidadAsientos)
+        public void ReservarAsiento( int cantidadAsientos)
         {
-            if (codigo == Codigo)
-            {
-                if (cantidadAsientos <= CantidadAsientos)
-                {
-                    CantidadAsientos -= cantidadAsientos;
-                }
-                else
-                {
-                    throw new ArgumentException("No hay suficientes asientos disponibles");
-                }
-            }
-            else
-            {
-                throw new ArgumentException("El código de vuelo no es válido");
-            }
+            CantidadAsientos -= cantidadAsientos;
         }
     }
 }
